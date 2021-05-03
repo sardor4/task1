@@ -1,0 +1,15 @@
+var name = prompt('Введите своё имя.');
+var age = +prompt('Введите свой возраст.');
+var example = +prompt('30 + 57 =');
+var example1 = +prompt('68 - 45 =');
+var example2 = +prompt('12 * 7 =');
+var example3 = +prompt('60 / 12 =');
+var example4 = +prompt('17 % 5');
+alert('Зайдите в консоль (CTRL + SIFT + I/F12)');
+console.log('Имя пользователя: ' + name);
+console.log('Возраст: ' + age);
+console.log('30 + 57 = 87 Ваш ответ: ' + example);
+console.log('68 - 45 = 23 Ваш ответ: ' + example1);
+console.log('12 * 7 = 84 Ваш ответ: ' + example2);
+console.log('60 / 12 = 5 Ваш ответ: ' + example3);
+console.log('17 % 5 = 2 Ваш ответ: ' + example4);
